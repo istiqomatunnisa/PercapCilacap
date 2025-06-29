@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>PerCap</title>
+    <link rel="icon website" type="png/jpeg" href="gambar/Per.png">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgb(255, 255, 255);">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="gambar/logo6.svg" alt="Logo" width="105" height="34">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active btn-orange" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="overview.html">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+    
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <section style="background-color: bisque;padding-bottom: 50px;">
+        <div class="container text-center" >
+          <div class="row" >
+            <div class="col-lg-12">
+              <p style="padding-top: 80px;margin-bottom: 40px; text-align: justify; font-size: medium;">
+                Website ini dibuat untuk memenuhi syarat proyek akhir perkuliahan dengan judul:
+              </p>
+              <h4 style="margin-top: 20px;margin-bottom: 30px;">"Pemantauan Wilayah Terdampak Kekeringan Berbasis Komputasi Awan Menggunakan Metode 
+                <i>Vegetation Condition Index </i>(VCI) di Kabupaten Cilacap pada Tahun 2019-2024"</h4>
+              
+              <p class="align-items-center" style="text-indent: 30px; text-align: justify;">Website ini merupakan <i>platform</i> yang ditunjukkan untuk melakukan diseminasi pemetaan 
+                sebaran kekeringan dan intensitas curah hujan berbasis komputasi awan dengan visualisasi melalui 
+                <i>Earth Engine Apps</i>. Pengolahan indeks kekeringan dan intensitas curah hujan diukur menggunakan 
+                <i>Google Earth Engine</i> dengan pemanfaatan citra satelit MODIS dan CHIRPS. Pengukuran nilai indeks kekeringan 
+                dihitung melalui <i>Google Earth Engine</i> dengan mengidentifikasi tingkat dan sebaran kekeringan menggunakan 
+                metode <i>Vegetation Condition Index</i> (VCI) di wilayah Cilacap. Pemanfaatan citra satelit <i>Moderate Resolution 
+                Imaging Spectroradiometer</i> (MODIS) tergolong ke dalam citra satelit yang memiliki resolusi temporal tinggi 
+                sehingga baik digunakan dalam pemetaan secara temporal. Sedangkan pengukuran intensitas curah hujan diukur melalui 
+                perhitungan rerata bulanan pada pemanfaatan citra satelit <i>Climate Hazards Group InfraRed Precipitation with Station 
+                Data</i> (CHIRPS) karena CHIRPS memiliki cakupan temporal yang panjang dan telah melalui proses kalibrasi dengan 
+                stasiun curah hujan darat sehingga memiliki akurasi yang lebih baik dibandingkan data satelit lainnya.
+              </p>
+              
+              
+              <p style="text-indent: 30px; text-align: justify;">Hasil yang dipetakan melalui <i>Earth Engine Apps</i> terdapat 2 visualisasi, yaitu sebaran kekeringan dan intensitas 
+                curah hujan yang masing-masing diukur setiap bulannya pada kering yaitu dengan rentang bulan April hingga Oktober tahun 2019-2024. Pemetaan kekeringan dan Curah Hujan
+                 masing-masing disusun dengan visualisasi <i>Split Panel Map</i> untuk dapat mengetahui 
+                perbandingan secara historis dengan membandingkan tingkat kekeringan pada tahun-tahun sebelumnya. <i>Split Panel Map</i> 
+                merupakan penyajian dalam menampilkan dua peta secara berdampingan untuk membandingkan analisis 
+                kekeringan berdasarkan pada waktu yang dipilih. Diseminasi kekeringan menggunakan kemudian dapat dilakukan perbandingan dengan intensitas 
+                curah hujan untuk menganalisis tingkat kekeringan secara meteorologis.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- About Start -->
+    <section>
+      <div class="container-xxl" id="about">
+        <div class="container">
+            <div class="row g-5 flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h2 class="mb-4 mt-1">Informasi Pengolahan Data</h2>
+                    <div class="d-flex mb-2">
+                        
+                        <div class="ms-4">
+                            <h5><i class="fa fa-code"></i> Profil Wilayah</h5>
+                            <p class="mb-3 mr-2" style="text-indent: 30px; text-align: justify;">Cilacap merupakan salah satu kabupaten yang terletak di Jawa Tengah. Luas wilayahnya merupakan luas wilayah 
+                              kabupaten terluas di Jawa Tengah dengan luas wilayahnya yaitu 2249,28 Km² atau 6,48% dari keseluruhan luas 
+                              wilayah Jawa Tengah. Kabupaten Cilacap memiliki 269 desa yang tersebar di 24 
+                              kecamatan. Jumlah penduduknya terdiri 1.002.672 jiwa penduduk laki-laki dan 985.950 jiwa penduduk perempuan. 
+                              Secara astronomis, Kabupaten Cilacap terletak di 7°30’ LS - 7°45’20’’ LS dan 108°4’30’’ BT - 109°30’30’’ BT.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                      
+                        <div class="ms-4">
+                            <h5><i class="fa fa-code"></i>Dataset Citra</h5>
+                            <p class="mb-0">Dataset citra yang digunakan dalam penelitian, meliputi:
+
+                              <ul style="text-align: justify;" class="mt-1">
+                                <li>Dataset Citra MODIS MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m.</li>
+                                <li>Dataset CHIRPS Pentad: Climate Hazards Center InfraRed Precipitation With Station Data</li>
+                              </ul>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded wow zoomIn mt-4" data-wow-delay="0.5s" src="gambar/lokasi.png">
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
